@@ -1,0 +1,26 @@
+.GoalBox{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    width: 50%;
+    margin: 0 auto;
+}
+.goalField{
+    margin-bottom: 20px;
+}
+.GoalBox .goalField.inValid label{
+    color: red;
+    font-weight: bold;
+}
+.GoalBox .goalField.inValid input{
+    border-color: red!important;
+    background-color: coral;
+}
+
+@media (max-width:414px){
+    .GoalBox{
+        width: 90%;
+        padding: 15px;
+    }
+}

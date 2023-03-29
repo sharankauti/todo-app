@@ -1,0 +1,16 @@
+.ItemBox{
+    background-color: rgb(247, 104, 104);
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    transition: box-shadow .3s;
+    cursor: pointer;
+    list-style: none;
+}
+
+.ItemBox:hover{
+    box-shadow: rgb(0 0 0 / 20%) 0px 22px 70px 4px;
+}
